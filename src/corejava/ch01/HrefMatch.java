@@ -38,8 +38,8 @@ public class HrefMatch {
 			Matcher matcher = pattern.matcher(sb) ;
 			
 			while(matcher.find()){
-				int start = matcher.start(1) ;
-				int end = matcher.end(1) ;
+				int start = matcher.start() ;
+				int end = matcher.end() ;
 				String match = sb.substring(start, end) ;
 				System.out.println(match);
 			}

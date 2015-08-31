@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Country importance="1">
+    <name>China</name>
+    <capital>beijing</capital>
+    <population>1000000</population>
+</Country>
